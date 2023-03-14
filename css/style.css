@@ -102,7 +102,7 @@ header .button-login a {
 
 /*---------select_1----------*/
 #section_1 {
-    background: no-repeat url("/img/bgc_section_1.png");
+    background: no-repeat url("../img/bgc_section_1.png");
     background-size: auto 100%;
     background-position: 50%;
 }
