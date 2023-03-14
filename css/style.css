@@ -51,7 +51,7 @@ li {
 }
 
 header {
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(255, 255, 255);
 }
 
 header>.wrapper {
@@ -263,10 +263,48 @@ header .button-login a {
     background: linear-gradient(to right, #e7f7ff,
      #e7f7ff 50%, #f6f9eb 50%, #f6f9eb);
 }
+
+#section_4 .cards{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 45px 0 40px;
+    width: 1020px;
+}
+#section_4 .card{
+    display: grid;
+    grid-template-columns: 180px 260px;
+    
+}
+
+#section_4 .img-wrap{
+    margin-top:35px;
+}
+#section_4 .card h4{
+    font-size: 23px;
+    font-family: Montserrat;
+    text-transform: capitalize;
+}
+#section_4 .card p{
+    margin-top: 25px;
+    line-height: 30px;
+    font-size: 17px;
+}
+#section_4 .card a{
+    display: inline-block;
+    margin-top: 25px;
+    padding: 20px 25px;
+    border-radius: 10px;
+    background-color: #62a4ce;
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 /*---------select_5----------*/
 /*---------select_6----------*/
 /*---------footer----------*/
-header,
+/* header,
 #section_1, #section_2 {
     display: none;
-}
+} */
