@@ -1,16 +1,16 @@
 @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf") format('truetype');
+    src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
+    src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format('truetype');
 }
 
 @font-face {
     font-family: "Nunito";
-    src: url("/fonts/Nunito/Nunito-VariableFont_wght.ttf") format('truetype');
+    src: url("../fonts/Nunito/Nunito-VariableFont_wght.ttf") format('truetype');
 }
 
 div,
@@ -475,7 +475,7 @@ header .button-login a {
     padding: 60px 0;
     background-color: #fff;
     background-image: linear-gradient(to bottom, white 0px, transparent 60px),
-     url("/img/bg.png");
+     url("../img/bg.png");
     background-position: center bottom;
 }
 
@@ -532,7 +532,6 @@ header .button-login a {
     margin-top: 10px;
     text-align: center;
     font-size: 13px;
-    font-weight: 600;
     color: #848484;
 }
 #section_6 .comment .cloud .sign{
