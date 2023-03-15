@@ -54,7 +54,6 @@ li {
 header {
     background-color: rgb(255, 255, 255);
 }
-
 header>.wrapper {
     display: flex;
     align-items: center;
@@ -62,30 +61,24 @@ header>.wrapper {
     margin: 0 auto;
     padding: 20px 0px 30px;
 }
-
 header .logo {
     flex-grow: 16;
 }
-
 header .logo a {
     font: 32px Nunito, sans-serif;
     text-transform: uppercase;
 }
-
 header nav ul {
     display: flex;
     font-size: 13px;
     text-transform: uppercase;
 }
-
 header nav li:not(:last-child) {
     margin-right: 20px;
 }
-
 header .button-login {
     flex-grow: 11;
 }
-
 header .button-login a {
     display: flex;
     margin-left: auto;
@@ -113,18 +106,15 @@ header .button-login a {
     padding: 170px 0;
     margin: 0 auto;
 }
-
 #section_1 h1 {
     font-size: 49px;
     color: white;
     text-align: center;
 }
-
 #section_1 h1 span {
     font-size: 35px;
     font-weight: 400;
 }
-
 #section_1 .button {
     display: flex;
     justify-content: center;
@@ -146,11 +136,9 @@ header .button-login a {
     padding: 90px 0 100px;
     background-color: white;
 }
-
 #section_2 img {
     width: max-content;
 }
-
 #section_2 h3 {
     margin-top: 40px;
     width: 510px;
@@ -160,14 +148,12 @@ header .button-login a {
     text-transform: uppercase;
     line-height: 50px;
 }
-
 #section_2 p {
     width: 940px;
     margin-top: 50px;
     line-height: 33px;
     text-align: center;
 }
-
 #section_2 p:nth-of-type(n + 2) {
     margin-top: 30px;
 }
@@ -177,23 +163,19 @@ header .button-login a {
     padding: 50px 0;
     background-color: white;
 }
-
 #section_3>.wrapper {
     width: 1020px;
     margin: 0 auto;
 }
-
 #section_3 .wrap {
     width: 980px;
     margin: 0 auto;
 
 }
-
 #section_3 nav {
     display: flex;
     justify-content: space-between;
 }
-
 #section_3 nav a {
     text-transform: capitalize;
     word-spacing: 25px;
@@ -202,7 +184,6 @@ header .button-login a {
     font-weight: 300;
     /* background-color: rgba(255, 0, 0, 0.37); */
 }
-
 #section_3 nav a span {
     display: inline-block;
     width: 45px;
@@ -213,50 +194,42 @@ header .button-login a {
     color: white;
     font-weight: 600;
     font-size: 20px;
-
 }
 
 #section_3 nav a:nth-of-type(n +2) span {
     background-color: #5F5F5F;
 }
-
 #section_3 .line {
     position: relative;
     height: 1px;
     margin-top: 35px;
     background-color: #E7E7E7;
 }
-
 #section_3 .line-section {
     position: absolute;
     height: 1px;
     width: 200px;
     background-color: #b7d048;
 }
-
 #section_3 article {
     display: flex;
     justify-content: start;
     margin-top: 60px;
 
 }
-
 #section_3 article .img-wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 320px;
 }
-
 #section_3 article .text {
     width: 660px;
 }
-
 #section_3 article .text h3 {
     color: #b7d048;
     font-size: 25px;
 }
-
 #section_3 article .text p {
     margin-top: 25px;
     font-size: 17px;
@@ -268,7 +241,6 @@ header .button-login a {
     background: linear-gradient(to right, #e7f7ff,
             #e7f7ff 50%, #f6f9eb 50%, #f6f9eb);
 }
-
 #section_4 .cards {
     display: flex;
     justify-content: space-between;
@@ -276,29 +248,23 @@ header .button-login a {
     padding: 45px 0 40px;
     width: 1020px;
 }
-
 #section_4 .card {
     display: grid;
     grid-template-columns: 180px 260px;
-
 }
-
 #section_4 .img-wrap {
     margin-top: 35px;
 }
-
 #section_4 .card h4 {
     font-size: 23px;
     font-family: Montserrat;
     text-transform: capitalize;
 }
-
 #section_4 .card p {
     margin-top: 25px;
     line-height: 30px;
     font-size: 17px;
 }
-
 #section_4 .card a {
     display: inline-block;
     margin-top: 25px;
@@ -316,34 +282,28 @@ header .button-login a {
     padding: 70px 0 10px;
     background-color: #fff;
 }
-
 #section_5>.wrapper {
     margin: 0 auto;
     width: 980px;
 }
-
 #section_5 .block_1 {
     display: flex;
     justify-content: space-between;
 }
-
 #section_5 .block_1 .wrap {
     width: 680px;
 }
-
 #section_5 .block_1 h3 {
     font-size: 29px;
     font-weight: 600;
     color: #515151;
     text-transform: capitalize;
 }
-
 #section_5 .block_1 p {
     margin-top: 15px;
     font-size: 17px;
     color: #8e8e8e;
 }
-
 #section_5 .block_1 a.button {
     height: max-content;
     align-self: center;
@@ -355,26 +315,22 @@ header .button-login a {
     font-weight: 600;
     text-transform: capitalize;
 }
-
 #section_5 .cards {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
 }
-
 #section_5 .card {
     width: 300px;
     background-color: #f9f9f9;
     overflow: hidden;
 }
-
 #section_5 .card .img-card {
     position: relative;
     height: 225px;
     overflow: hidden;
     border-radius: 10px 10px 0 0;
 }
-
 #section_5 .card .img-card .new {
     position: absolute;
     background-color: #b7d048;
@@ -388,7 +344,6 @@ header .button-login a {
     transform-origin: 50% top;
     transform: translateX(-50%) rotateZ(-45deg);
 }
-
 #section_5 .card .img-card .price {
     position: absolute;
     height: 35px;
@@ -402,24 +357,20 @@ header .button-login a {
     left: 150px;
 
 }
-
 #section_5 .card .text_block {
     padding: 20px 20px 20px;
     border: 1px solid #e5e5e5;
     border-radius: 0 0 10px 10px;
     color: #494949;
 }
-
 #section_5 .card h4 {
     font-weight: 700;
     font-size: 17px;
 }
-
 #section_5 .card p {
     margin-top: 10px;
     font-size: 13px;
 }
-
 #section_5 .card .progress {
     margin-top: 15px;
     height: 15px;
@@ -427,14 +378,12 @@ header .button-login a {
     border-radius: 100px;
     overflow: hidden;
 }
-
 #section_5 .card .progress .green-line {
     position: relative;
     left: 10%;
     height: 15px;
     background-color: #e2e2e2;
 }
-
 #section_5 .card .legend {
     display: flex;
     justify-content: space-between;
@@ -443,19 +392,16 @@ header .button-login a {
     font-weight: 600;
     color: #8d8d8d;
 }
-
 #section_5 .card hr {
     margin-top: 15px;
     border: solid #d5d5d5;
     border-width: 1px 0 0;
 }
-
 #section_5 .card .card_footer {
     display: flex;
     justify-content: end;
     margin-top: 20px;
 }
-
 #section_5 .card .card_footer a {
     position: relative;
     right: 10px;
@@ -464,7 +410,6 @@ header .button-login a {
     text-transform: capitalize;
     color: #494949;
 }
-
 #section_5 .card .card_footer img {
     padding-left: 8px;
     vertical-align: sub;
@@ -478,36 +423,30 @@ header .button-login a {
      url("../img/bg.png");
     background-position: left bottom;
 }
-
 #section_6 .wrapper {
     width: 950px;
     margin: 0 auto;
 }
-
 #section_6 .header h3 {
     text-align: center;
     font-size: 39px;
     font-weight: 600;
     color: #a7bf40;
 }
-
 #section_6 .header p {
     margin-top: 30px;
     width: 920px;
     text-align: center;
     color: #939393;
 }
-
 #section_6 .comments {
     display: flex;
     justify-content: space-between;
     margin-top: 95px;
 }
-
 #section_6 .comment {
     width: 400px;
 }
-
 #section_6 .comment .cloud {
     position:relative;
     padding: 20px 35px;
@@ -520,14 +459,12 @@ header .button-login a {
     background-color: white;
     z-index: 100;
 }
-
 #section_6 .comment .cloud h4 {
     text-align: center;
     font-size: 21px;
     font-weight: 600;
     color: #a7bf40;
 }
-
 #section_6 .comment .cloud p {
     margin-top: 10px;
     text-align: center;
@@ -543,7 +480,6 @@ header .button-login a {
     width: 25px;
     height: 20px;
     background-color: white;
-    /* z-index: 9; */
 }
 #section_6 .comment .user{
     display:flex;
@@ -572,11 +508,4 @@ footer p{
     text-align: center;
     font-size: 13px;
     color: #848484;
-}
-header,
-#section_1,
-#section_2,
-#section_3,
-#section_4 {
-    /* display: none; */
 }
