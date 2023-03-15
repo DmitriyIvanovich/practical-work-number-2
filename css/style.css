@@ -38,7 +38,7 @@ body {
 
 a {
     text-decoration: none;
-    /* color: inherit; */
+    color: inherit;
 }
 
 li {
@@ -476,7 +476,7 @@ header .button-login a {
     background-color: #fff;
     background-image: linear-gradient(to bottom, white 0px, transparent 60px),
      url("../img/bg.png");
-    background-position: center bottom;
+    background-position: left bottom;
 }
 
 #section_6 .wrapper {
@@ -549,13 +549,30 @@ header .button-login a {
     display:flex;
     align-items: center;
     margin-top: 35px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 #section_6 .comment .user .name{
     text-transform: capitalize;
     padding-left: 15px;
 }
+#section_7{
+    padding: 50px 140px;
+    background-color: white;
+}
 /*---------footer----------*/
+footer{
+    background-color: white;
+}
+footer .line{
+    height: 1px;
+    background-color: #ededed;
+}
+footer p{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #848484;
+}
 header,
 #section_1,
 #section_2,
